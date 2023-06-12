@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I assist you with cybersecurity?", "Hi! How can I help you stay safe online?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": ["Goodbye! Stay safe!", "Take care! If you have any more questions, feel free to ask."]
+    },
+    {
+      "tag": "password",
+      "patterns": ["How do I create a strong password?", "What makes a password secure?", "Tips for password security"],
+      "responses": ["A strong password should be at least 8 characters long and include a combination of letters (both uppercase and lowercase), numbers, and symbols. Avoid using common phrases, personal information, or easily guessable patterns in your passwords. It's also important to use a unique password for each online account.", "To create a strong password, use a mix of uppercase and lowercase letters, numbers, and symbols. Avoid using common words or personal information. Remember to use a unique password for each account you have."]
+    },
+    {
+      "tag": "phishing",
+      "patterns": ["What is phishing?", "How can I identify phishing emails?", "Avoiding phishing attacks"],
+      "responses": ["Phishing is a fraudulent attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising as a trustworthy entity in an electronic communication. Be cautious of emails or messages asking for personal information or urging immediate action. Check for suspicious links, misspellings, or email addresses that don't match the organization's domain.", "Phishing is a type of cyber attack where attackers trick individuals into revealing sensitive information. Be cautious of emails or messages that ask for personal or financial information. Look out for generic greetings, urgent requests, and suspicious links. If you're unsure, contact the organization directly through their official website."]
+    },
+    {
+      "tag": "two-factor",
+      "patterns": ["What is two-factor authentication?", "How does 2FA work?", "Setting up two-factor authentication"],
+      "responses": ["Two-factor authentication (2FA) adds an extra layer of security to your online accounts. It requires you to provide two pieces of evidence to verify your identity, usually something you know (password) and something you have (a mobile device). This helps protect your accounts even if your password gets compromised. Many online services offer 2FA options in their security settings.", "Two-factor authentication (2FA) adds an additional step to the login process. After entering your password, you'll be prompted to provide a second form of verification, such as a unique code sent to your mobile device. This helps ensure that even if someone knows your password, they won't be able to access your account without the second factor."]
+    },
+    {
+      "tag": "malware",
+      "patterns": ["What is malware?", "Types of malware", "How to protect against malware"],
+      "responses": ["Malware refers to malicious software designed to harm or exploit computers, networks, and devices. Common types of malware include viruses, worms, Trojans, ransomware, and spyware. To protect against malware, keep your operating system and software up to date, use a reliable antivirus program, avoid downloading files or clicking on suspicious links, and be cautious of email attachments from unknown sources."]
+    },
+    {
+      "tag": "social-engineering",
+      "patterns": ["What is social engineering?", "Examples of social engineering attacks", "How to avoid social engineering"],
+"responses": ["Social engineering is the practice of manipulating people into divulging sensitive information or performing actions that may compromise their security. Attackers use psychological techniques to deceive individuals and gain unauthorized access to systems or data. Examples of social engineering attacks include phishing, pretexting, baiting, tailgating, and quid pro quo. To avoid social engineering, be cautious of sharing personal information with unknown individuals, double-check the legitimacy of requests or messages, and educate yourself about common social engineering tactics. It's important to be skeptical and verify the authenticity of any unusual requests or offers."]
+},
+{
+"tag": "public-wifi",
+"patterns": ["Is public Wi-Fi secure?", "How to stay safe on public Wi-Fi?", "Risks of using public Wi-Fi"],
+"responses": ["Public Wi-Fi networks are often insecure and can expose your data to potential risks. Avoid accessing sensitive information or making financial transactions on public Wi-Fi. If you must use public Wi-Fi, consider using a virtual private network (VPN) to encrypt your connection and protect your data. It's also important to disable automatic connections to unknown networks and regularly update your devices with the latest security patches."]
+},
+{
+"tag": "data-privacy",
+"patterns": ["Why is data privacy important?", "How to protect your personal data?", "Best practices for data privacy"],
+"responses": ["Data privacy is crucial to safeguard your personal information and prevent it from being misused or exploited. To protect your data privacy, use strong and unique passwords, enable two-factor authentication, be cautious about sharing personal information online, regularly review privacy settings on social media platforms, avoid clicking on suspicious links or downloading unknown files, and use encryption when transmitting sensitive data. Additionally, staying updated about privacy policies and being mindful of the data you share can contribute to maintaining your privacy."]
+},
+{
+"tag": "device-security",
+"patterns": ["How to secure your devices?", "Best practices for device security", "Protecting your smartphone and computer"],
+"responses": ["To secure your devices, keep your operating system, apps, and antivirus software up to date. Use strong and unique passwords or biometric authentication methods. Be cautious when installing third-party apps and only download from trusted sources. Regularly back up your data, enable device tracking or remote wiping features, and avoid connecting to unknown or unsecured Wi-Fi networks. It's also recommended to enable device encryption and use a reliable firewall for added protection."]
+},
+{
+"tag": "online-transactions",
+"patterns": ["How to stay safe during online transactions?", "Secure online shopping tips", "Protecting your financial information online"],
+"responses": ["When making online transactions, ensure that you're on a secure website with 'https://' and a padlock symbol. Avoid entering financial information on unsecured websites or through unencrypted connections. Use trusted payment methods and regularly review your financial statements for any unauthorized transactions. Be cautious of phishing attempts targeting online shoppers. Consider using virtual credit cards or payment services that offer additional security layers. Finally, keep your devices and antivirus software updated to minimize the risk of malware compromising your transactions."]
+}
+]
+}
